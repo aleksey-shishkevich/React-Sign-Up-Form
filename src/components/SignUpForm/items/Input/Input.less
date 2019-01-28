@@ -1,0 +1,25 @@
+.input {
+    color: white;
+    background-color: rgb(43,40,54);
+    font-size: 18px;
+    height: 50px;
+    text-align: left;
+    font-family: Azo-Sans;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	  color: rgb(84,94,108);
+	  opacity: 1; /* Firefox */
+	}
+	
+	&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	  color: rgb(84,94,108);
+	}
+	
+	&::-ms-input-placeholder { /* Microsoft Edge */
+	  color: rgb(84,94,108);
+	}
+	&:focus {outline:0;}
+}

@@ -1,0 +1,15 @@
+.info-panel {
+	max-width: 200px;
+	position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Tahoma;
+    padding: 10px;
+    display: flex;
+	flex-direction: column;
+	align-items: flex-end; 
+    > div {
+    }
+}
